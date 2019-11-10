@@ -179,3 +179,72 @@ li a:hover{
   #myBtn:hover {
     background-color:darkorange;
   }
+  
+
+
+.container1 {
+	width: 80%;
+    margin: 0 auto;
+    background-color: darkorange;
+}
+
+header {
+  background: darkorange;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul2 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav b {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+nav b:hover {
+  color: #000;
+}
+
+nav b::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav b:hover::before {
+  width: 100%;
+}
