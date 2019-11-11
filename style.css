@@ -80,11 +80,6 @@
     background: url("pislo.jpg")no-repeat center center;
     background-size: cover;
 }
-.jumbotron{
-    width: 50%;
-    height: 50%;
-    margin: auto;
-}
 
 .masthead{
     height: 100vh;
@@ -178,4 +173,8 @@ li a:hover{
   
   #myBtn:hover {
     background-color:darkorange;
-  }
+}
+.img{
+    width: 100%;
+    margin: auto;
+}
