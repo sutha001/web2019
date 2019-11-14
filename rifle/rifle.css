@@ -1,129 +1,236 @@
-@import url('https://fonts.googleapis.com/css?family=Athiti:600&display=swap');
-body{
-    background-image:url("http://www.bhmpics.com/wallpapers/cartridge_belt_ammo-2048x1152.jpg");
-    background-attachment: fixed;
-    font-family: 'Athiti', sans-serif;    
+#slide{
+    background-color: darkorange;
+    box-shadow: 10px 10px 50px gray;
 }
-.all{
-    width: auto;
-    height: auto;
-
-}
-.home{
-    margin: auto;
-    width: 50%;
-    height: 50%;
-}
-.imgtop{
-    border-radius: 8px;
-    display: block;
-    filter: alpha(opacity=50);
-    margin: auto;
-}
-.manu{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    padding: 0px;
-    font-size: 20px;
-    margin: auto;
-    width: 90%;
-    height: 5%;
-    text-align:center;
-    border:solid rgb(88, 88, 88) 3px;
-}
-
-
 .left {
-    float:left;
-    width:33.33%;
-    height: 100%;
     position: relative;
-    background-color: rgb(148, 147, 147);
-    text-align:center ;
-    
+    width: 100%;
+    height: 100%;
 }
-.left:hover,.center:hover,.right:hover{
-    background-color:rgb(202, 200, 200);
-    color: rgb(139, 139, 139);
+
+.img{
+    width:100%;
+    height:500px;
 }
 
 .center {
-    display: inline-block;
-    margin:0 auto;
-    width:33.33%;
-    height: 100%;
     position: relative;
-    background-color: rgb(148, 147, 147);
-    text-align:center ;
-
+    width: 100%;
+    height: 100%;
 }
 
 .right {
-    float:right;
-    width:33.33%;
-    height: 100%;
     position: relative;
-    background-color: rgb(148, 147, 147);
-    text-align:center ;
+    width: 100%;
+    height: 100%;
 }
 
+.image1,.image2,.image3 {
+    border-radius: 8px;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+}
 
-
-.txt1{
-    background-color: black;
+.txt1,.txt2,.txt3{
+    background-color: darkorange;
     color: white;
     font-size: 16px;
-    padding: 5px 32px;
-    
-}
-
-.con{
-    margin: auto;
-    background-color:hsl(0, 0%, 100%,.6);
-    border-radius: 20px;
-    width: 70%;
-    height: auto;
-}
-.g1{
-    color:black;
-    
-}
-#pistl{
-    height:40%;
-    width:40%;
-    margin:50px 30%;
-    border: solid rgb(88, 88, 88) 3px;
-}
-h1{
-    text-align: center;
-    font-size: 40px;
-}
-p{
-    text-align: center;
-    font-size: 30px;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-bottom: 50px;
+    border-radius: 8px;
+    padding: 16px 32px;
 }
 
 .middle{
-    transition: 1s ease;
+    transition: .5s ease;
+    opacity: 0;
     position: absolute;
-    opacity: 0.5;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%)
-}
+} 
+
 .left:hover .middle {
     opacity: 1;
+}
+.left:hover .image1{
+    opacity: 0.3;
 }
 
 .center:hover .middle {
     opacity: 1;
 }
+.center:hover .image2{
+    opacity: 0.3;
+}
 
 .right:hover .middle {
     opacity: 1;
 }
+.right:hover .image3{
+    opacity: 0.3;
+}
+
+.DOWN:hover .middle {
+    opacity: 1;
+}
+
+.intro-2 {
+    background: url("pislo.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.masthead{
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('/web2019/image/moair.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mastheadrifle{
+    height: 70%;
+    min-height: 500px;
+    background-image: url('/web2019/rilflelo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box{
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0.5;
+    border-radius: 50px;
+}
+
+.h1pistol{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 108px;
+}
+.navbar{
+    background: darkorange;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+}
+li a{
+    display: block;
+    color: darkorange;
+    text-align: center;
+    padding: 15px 290px;
+    text-decoration: none;
+    float: left;
+    font-size: 20px;
+}
+li a:hover{
+    background-color: #111;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20px;
+    border:solid rgb(43, 42, 42) 2px;
+  }
+  
+  #myBtn:hover {
+    background-color:darkorange;
+
+}
+.img{
+    width: 100%;
+    margin: auto;
+}
+  
+
+
+.container1 {
+	width: 80%;
+    margin: 0 auto;
+    background-color: darkorange;
+}
+
+header {
+  background: darkorange;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul2 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav b {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+nav b:hover {
+  color: #000;
+}
+
+nav b::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav b:hover::before {
+  width: 100%;
+}
+
