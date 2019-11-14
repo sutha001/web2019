@@ -84,7 +84,7 @@
 .masthead{
     height: 100vh;
     min-height: 500px;
-    background-image: url('/web2019/image/moair.jpg');
+    background-image: url('../image/moair.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@
 .mastheadrifle{
     height: 70%;
     min-height: 500px;
-    background-image: url('/web2019/rilflelo.jpg');
+    background-image: url('../rilflelo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
