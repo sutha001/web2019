@@ -84,7 +84,7 @@
 .masthead{
     height: 100vh;
     min-height: 500px;
-    background-image: url('/web2019/pislo.jpg');
+    background-image: url('../pislo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -13,22 +13,21 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <a class="navbar-brand" href="/web2019/index.html"><img src="/web2019/logo.png" width="10%" height="10%"></a>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                Dropdown link
-            </a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Link 1</a>
-                <a class="dropdown-item" href="#">Link 2</a>
-                <a class="dropdown-item" href="#">Link 3</a>
-            </div>
-        </li>
-        </ul>
-    </nav>
-    <br>
-    <br>
+    <header>
+        <div class="container1">
+            <img src="../logo.png" width="10%" height="10%" class="logo">
+
+            <nav>
+                <ul2>
+                    <li><b href="#">หน้าหลัก</b></li>
+                    <li><b href="#">Pistol</b></li>
+                    <li><b href="#">Rifle</b></li>
+                    <li><b href="#">IPSC</b></li>
+                    <li><b href="#">คณะผู้จดทำ</b></li>
+                </ul2>
+            </nav>
+        </div>
+    </header>
     <header class="masthead" style="height: 70%;">
         <div class="box">
         </div>
@@ -38,17 +37,37 @@
     <br>
     <div class="jumbotron" style="width: 70%; margin: auto;">
         <h1 style="text-align: center;">หมวก</h1>
-        <img src="/web2019/image/ss.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
-        <p>หมวกนั้นมีความสำคัญอย่างยิ่งสำหรับนักกีฬายิงปืนทั้งใน indoor และ outdoor  
-            เพราะขณะที่นักกีฬากำลังทำการแข่งขันนั้นมักจะมีแดดส่องใส่ตาทำให้นักกีฬานั้นสายตาพร่ามัวได้  
+        <img src="../image/ss.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+        <p>หมวกนั้นมีความสำคัญอย่างยิ่งสำหรับนักกีฬายิงปืนทั้งใน indoor และ outdoor
+            เพราะขณะที่นักกีฬากำลังทำการแข่งขันนั้นมักจะมีแดดส่องใส่ตาทำให้นักกีฬานั้นสายตาพร่ามัวได้
             ดังนั้นนักกีฬายิงปืนมักจะสวมใส่หมวกขณะแข่งขันเสมอ</p>
         <br>
-        <img src="/web2019/image/vky_630.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+        <img src="../image/vky_630.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
         <br>
 
         <div class="footer-copyright text-center py-3" style="margin-bottom:0; background-color: darkorange;">
             © 2018 Copyright: Web Technology
         </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <script>
+            var mybutton = document.getElementById("myBtn");
+
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
 </body>
 
 </html>
