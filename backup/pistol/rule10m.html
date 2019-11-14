@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ปืนสั้นอัดแก็ส</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container1">
+            <a href="../index.html">
+                <img src="../logo.png" width="10%" height="10%" class="logo">
+            </a>
+            <nav>
+                <ul2>
+                    <li><b href="#">หน้าหลัก</b></li>
+                    <li><b href="#">Pistol</b></li>
+                    <li><b href="#">Rifle</b></li>
+                    <li><b href="#">IPSC</b></li>
+                    <li><b href="#">คณะผู้จดทำ</b></li>
+                </ul2>
+            </nav>
+        </div>
+    </header>
+    <header class="masthead" style="height: 70%;">
+        <div class="box">
+        </div>
+        <h1 class="h1pistol" style="text-align: center;">กติกา</h1>
+    </header>
+    <br>
+    <br>
+    <div class="jumbotron" style="width: 70%; margin: auto;">
+        <h1 style="text-align: center;">กติกา</h1>
+        <img src="../image/law.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+        <br>
+        <h1>กติกาปืนสั้นอัดลม</h1>
+        <p>-ระยะของสนาม 10 เมตร<br>
+            - ปืนที่ใช้แข่งต้องบรรจุกระสุนครั้งละ 1 ครั้ง<br>
+            -การวัดขนาดของปืนใช้กล่องขนาด 420 x 200 x 5 มม. <br>
+            -เวลาที่ใช้ในการแข่งขัน<br>&emsp;&emsp;
+            -ชาย 1 ชั่วโมง 45 นาที<br>&emsp;&emsp;
+            -หญิง 1 ชัว่โมง 15 นาที<br>
+            กระสุนและเป้าบันทึกผล<br>&emsp;&emsp;
+            -ชาย ยิงเป้าละ 1 นัด จำนวน 60 นัด ใน 60 เป้า<br>&emsp;&emsp;
+            -หญิง ยิงเป้าละ 1 นัด จำนวน 40 นัด ใน 40เป้า<br>
+            -น้ำหนักไก 500 กรัม</p>
+        <br>
+    </div>
+
+    <div class="footer-copyright text-center py-3" style="margin-bottom:0; background-color: darkorange;">
+        © 2018 Copyright: Web Technology
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script>
+        var mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
