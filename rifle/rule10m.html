@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>กติกาปืนยาวอัดลม</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="rifle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="/web2019/index.html"><img src="/web2019/logo.png" width="10%" height="10%"></a>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Dropdown link
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+        </li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <header class="mastheadrifle">
+        <div class="box">
+        </div>
+        <h1 class="h1pistol" style="text-align: center;">กติกาปืนยาวอัดลม</h1>
+    </header>
+    <br>
+    <br>
+    <div class="jumbotron" style="width: 70%; margin: auto;">
+        <h1 style="text-align: center;">กติกาปืนยาวอัดลม</h1>
+        <img src="/web2019/image/rifle/maxresdefault (3).jpg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+        <br>
+        <h1>กติกาปืนยาวอัดลม</h1>
+        <p>-ระยะของสนาม 10 เมตร<br>
+            - ปืนที่ใช้แข่งต้องบรรจุกระสุนครั้งละ 1 นัด<br>
+            -น้ำหนักโดยรวมของปืนจะต้องไม่เกิน 5.5 กิโลกรัม<br>
+            -เวลาที่ใช้ในการแข่งขัน<br>&emsp;&emsp;
+            -ชาย 1 ชั่วโมง 45 นาที<br>&emsp;&emsp;
+            -หญิง 1 ชัว่โมง 15 นาที<br>
+            กระสุนและเป้าบันทึกผล<br>&emsp;&emsp;
+            -ชาย ยิงเป้าละ 1 นัด จำนวน 60 นัด ใน 60 เป้า<br>&emsp;&emsp;
+            -หญิง ยิงเป้าละ 1 นัด จำนวน 40 นัด ใน 40เป้า<br>
+        <br>
+    </div>
+
+    <div class="footer-copyright text-center py-3" style="margin-bottom:0; background-color: darkorange;">
+        © 2018 Copyright: Web Technology
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script>
+        var mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
