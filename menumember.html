@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>กีฬายิปืน</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+  <style>
+body{
+    background-color: rgb(128, 128, 128);
+}
+    .img_member{
+        border-radius: 50%;
+        width: 200px;
+        height: 150px;
+    }
+    td ,td{
+  text-align: center;
+  vertical-align: bottom;
+  padding: 10px;
+  color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+.div_member{
+    margin: auto;
+    background-color: darkgrey;
+    width: 80%;
+    height: 50%;
+    left: 50%;
+    top: 50%;
+    border-radius: 50px;
+    text-align:center;
+
+}
+</style>  
+</head>
+
+
+<body>
+    <header>
+        <div class="container1">
+            <img src="logo.png" width="10%" height="10%" class="logo">
+
+            <nav>
+                <ul2>
+                    <li><b href="#">หน้าหลัก</b></li>
+                    <li><b href="#">Pistol</b></li>
+                    <li><b href="#">Rifle</b></li>
+                    <li><b href="#">IPSC</b></li>
+                    <li><b href="#">คณะผู้จดทำ</b></li>
+                </ul2>
+            </nav>
+        </div>
+    </header>
+    <br><br>
+
+    <div class="div_member"><br>
+    <h2>คณะผู้จัดทำ</h2><br><br>
+    <table style="width:100%" class="table01">
+        <tr>
+          <th><div style="margin: 0 auto; width: 200px">
+                <img src="midd.jpg" alt="me"  class="img_member"/>
+          </div></th>
+          <th><div style="margin: 0 auto; width: 200px">
+                <img src="midd.jpg" alt="me"  class="img_member"/>
+          </div></th> 
+          <th><div style="margin: 0 auto; width: 200px">
+                <img src="midd.jpg" alt="me"  class="img_member"/>
+          </div></th>
+          
+        </tr>
+        <tr>
+          <td>นาย ภคพัฒน์ วงศ์ศรัทธาธิคุณ</td>
+          <td>นาย ฬชต แปงการิยา</td>
+          <td>นาย สุธา บินกามิตร์</td>
+        
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+          
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>80</td>
+         
+        </tr>
+      </table>
+      <br><br><br>
+      <table style="width:100%">
+        <tr>
+          <th><div style="margin: 0 auto; width: 200px">
+                <img src="midd.jpg" alt="me" class="img_member"/>
+          </div></th>
+          <th><div style="margin: 0 auto; width: 200px">
+                <img src="midd.jpg" alt="me" class="img_member"/>
+          </div></th> 
+          
+          
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          
+        
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          
+          
+        </tr>
+        
+         
+        </tr>
+      </table></div>
+   <br><br><br><br>
+
+
+    <div class="footer-copyright text-center py-3" style="margin-bottom:0; background-color: darkorange;">
+        © 2018 Copyright: Web Technology
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script>
+        var mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
