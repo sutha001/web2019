@@ -10,6 +10,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+        .box1 {
+            width: 500px;
+            height: 500px;
+            background-color: aliceblue;
+            left: 50%;
+            top: 50%;
+            margin: auto;
+        }
+    </style>
 </head>
 
 <body>
@@ -147,12 +157,12 @@
             </div>
             <div class="col-sm-4">
                 <a href="rifle/historythai.html">
-                <div class="center">
-                    <img src="image/A029878010120210510.jpg" class="image1" width="100%" height="100%">
-                    <div class="middle">
-                        <div class="txt1">click</div>
+                    <div class="center">
+                        <img src="image/A029878010120210510.jpg" class="image1" width="100%" height="100%">
+                        <div class="middle">
+                            <div class="txt1">click</div>
+                        </div>
                     </div>
-                </div>
                 </a>
             </div>
         </div>
@@ -183,14 +193,20 @@
         </div>
     </div>
     <br>
-
-
+    <div class="jumbotron" style="background-color: white;">
+        <h1 style="text-align: center;">Status</h1>
+        <div class="box1">
+            <canvas id="myChart" width="100%" height="100%"></canvas>
+        </div>
+    </div>
 
     <div class="footer-copyright text-center py-3" style="margin-bottom:0; background-color: darkorange;">
         © 2018 Copyright: Web Technology
     </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <script src="back2top.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.js"></script>
+    <script src="javascript.js"></script>
 </body>
 
 </html>
