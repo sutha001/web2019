@@ -284,3 +284,7 @@ nav b:hover::before {
     background-color: darkorange;
     color:black;
 }
+
+.carousel-inner img {
+    width: 100%;
+  }
