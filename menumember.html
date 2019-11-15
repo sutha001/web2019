@@ -14,7 +14,7 @@
 
   <style>
 body{
-    background-color: rgb(128, 128, 128);
+    background-color: moccasin;
 }
     .img_member{
         border-radius: 50%;
@@ -25,22 +25,23 @@ body{
   text-align: center;
   vertical-align: bottom;
   padding: 10px;
-  color: white;
+  font-size: 20px;
+ 
 }
 h2{
     text-align: center;
-    color: white;
+    
 }
 .div_member{
     margin: auto;
-    background-color: darkgrey;
+   
     width: 80%;
     height: 50%;
     left: 50%;
     top: 50%;
     border-radius: 50px;
     text-align:center;
-    background-image: linear-gradient(grey, darkgrey,grey);
+    
 
 
 }
@@ -49,21 +50,45 @@ h2{
 
 
 <body>
-    <header>
-        <div class="container1">
-            <img src="logo.png" width="10%" height="10%" class="logo">
-
-            <nav>
-                <ul2>
-                    <li><b href="#">หน้าหลัก</b></li>
-                    <li><b href="#">Pistol</b></li>
-                    <li><b href="#">Rifle</b></li>
-                    <li><b href="#">IPSC</b></li>
-                    <li><b href="#">คณะผู้จดทำ</b></li>
-                </ul2>
-            </nav>
-        </div>
-    </header>
+  <nav class="navbar navbar-expand-sm navbar-light" style="background-color: darkorange;">
+    <div><a href="index.html"><img src="logo.png" width="10%" height="10%"></a></div>
+    <ul class="navbar-nav">
+        <li class="nav-item" style="width: 100px;">
+            <a class="nav-link" href="index.html" id="txt">หน้าหลัก</a>
+        </li>
+        <li class="nav-item dropdown" style="width: 100px;">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Pistol
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="pistol/pistol.html">ประเภทปืน</a>
+                <a class="dropdown-item" href="pistol/other.html">อุปกร์อื่นๆ</a>
+                <a class="dropdown-item" href="pistol/rule10m.html">กติกาปืนสั้นอัดแก๊ส</a>
+                <a class="dropdown-item" href="pistol/rule25m.html">กติกาปืนสั้นมาตรฐาน 25 เมตร</a>
+                <a class="dropdown-item" href="pistol/rule25fs.html">กติกาปืนสั้นยิงเร็ว</a>
+                <a class="dropdown-item" href="pistol/rule50m.html">กติกาปืนสั้นยิงช้า</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown" style="width: 100px;">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Rifle
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="rifle/rifle.html">ประเภทปืน</a>
+                <a class="dropdown-item" href="rifle/other.html">อุปกร์ต่างๆ</a>
+                <a class="dropdown-item" href="rifle/rule10m.html">กติกาปืนาวอัดแก๊ส</a>
+                <a class="dropdown-item" href="rifle/rule50mprone.html">กติการปืนยาวท่านอน</a>
+                <a class="dropdown-item" href="rifle/rule50threeposition.html">กติการปืนยาว 3 ท่า</a>
+            </div>
+        </li>
+        <li class="nav-item" style="width: 100px;">
+            <a class="nav-link" href="menumember.html" id="txt">ผู้จัดทำ</a>
+        </li>
+        <li class="nav-item" style="width: 100px;">
+            <a class="nav-link" href="rifle/refer.html" id="txt">อ้างอิง</a>
+        </li>
+    </ul>
+</nav>
     <br><br>
 
     <div class="div_member"><br>
@@ -71,56 +96,50 @@ h2{
     <table style="width:100%" class="table01">
         <tr>
           <th><div style="margin: 0 auto; width: 200px">
-                <img src="midd.jpg" alt="me"  class="img_member"/>
+                <img src="61070151.jpg" alt="me"  class="img_member"/>
           </div></th>
           <th><div style="margin: 0 auto; width: 200px">
-                <img src="midd.jpg" alt="me"  class="img_member"/>
+                <img src="61070266.jpg" alt="me"  class="img_member"/>
           </div></th> 
           <th><div style="margin: 0 auto; width: 200px">
-                <img src="midd.jpg" alt="me"  class="img_member"/>
+                <img src="61070248.jpg" alt="me"  class="img_member"/>
           </div></th>
           
         </tr>
         <tr>
           <td>นาย ภคพัฒน์ วงศ์ศรัทธาธิคุณ</td>
-          <td>นาย ฬชต แปงการิยา</td>
           <td>นาย สุธา บินกามิตร์</td>
-        
+          <td>นาย อันดามันต์ อุดมชาติ</td>
         </tr>
         <tr>
-          <td>Eve</td>
-          <td>Jackson</td>
-          <td>94</td>
+          <td>61070151</td>
+          <td>61070248</td>
+          <td>61070266</td>
           
         </tr>
-        <tr>
-          <td>John</td>
-          <td>Doe</td>
-          <td>80</td>
-         
-        </tr>
+        
       </table>
       <br><br><br>
       <table style="width:100%">
         <tr>
           <th><div style="margin: 0 auto; width: 200px">
-                <img src="midd.jpg" alt="me" class="img_member"/>
+                <img src="61070347.jpg" alt="me" class="img_member"/>
           </div></th>
           <th><div style="margin: 0 auto; width: 200px">
-                <img src="midd.jpg" alt="me" class="img_member"/>
+                <img src="61070348.jpg" alt="me" class="img_member"/>
           </div></th> 
           
           
         </tr>
         <tr>
-          <td>Jill</td>
-          <td>Smith</td>
+          <td>นาย ศรัณยพงษ์ จันทร์พริก</td>
+          <td>นาย ฬชต แปงการิยา</td>
           
         
         </tr>
         <tr>
-          <td>Eve</td>
-          <td>Jackson</td>
+          <td>61070347</td>
+          <td>61070348</td>
           
           
         </tr>
